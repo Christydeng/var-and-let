@@ -25,7 +25,11 @@ let a = 1;
 let a = 2;
 }
 
-Runtime会报错：Uncaught SyntaxError: Identifier 'a' has already been declared有了更加清晰的作用域，我们的代码就能够更好被预测，也更好维护。有了更容易控制的作用域可以让我们减少很多立即执行的函数。Runtime的自动检查可以避免不必要，甚至是错误的代码声明。
+Runtime会报错：Uncaught SyntaxError: Identifier 'a' has already been declared
+
+有了更加清晰的作用域，我们的代码就能够更好被预测，也更好维护。
+有了更容易控制的作用域可以让我们减少很多立即执行的函数。
+Runtime的自动检查可以避免不必要，甚至是错误的代码声明。
 
 
 链接：https://www.zhihu.com/question/47456978/answer/106069482
